@@ -12,8 +12,6 @@ Tecnologias Utilizadas:
 
 Commit Dia 05/02/2025:
 
-Tecnologias Utilizadas:
-
 - Criado tabelas CATEGORIA e INVESTIMENTO e representado como ORM no projeto
 - Adicionado API da AlphaVantage
 - Criado classes para criação os registros de CATEGORIA e INVESTIMENTO
