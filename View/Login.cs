@@ -20,13 +20,12 @@ namespace ProjetoSQLserver.View
 			string usuario = UsuarioTextBox.Text;
 			string senha = SenhaTextBox.Text;
 
-			bool testaLogin = UserLogin.ValidarLogin(usuario, senha);
+			bool testaLogin = UsuarioLogin.ValidarLogin(usuario, senha);
 
 			if (testaLogin)
 			{
-				MainScreen telaPrincipal = new MainScreen();
+				ControleDeLucratividade telaPrincipal = new ControleDeLucratividade();
 
-				telaPrincipal.AdicionaNomeUsuario(usuario);
 				telaPrincipal.Show();
 				this.Hide();
 			}
