@@ -7,3 +7,10 @@ Tecnologias Utilizadas:
 - C# com WinForms para a interface gráfica
 - Entity Framework Core como ORM
 - SQL Server Express como banco de dados
+
+========================================================
+
+Commit Dia 05/02/2025:
+-Criado tabelas CATEGORIA e INVESTIMENTO e representado como ORM no projeto
+-Adicionado API da AlphaVantage
+-Criado classes para criação os registros de CATEGORIA e INVESTIMENTO
